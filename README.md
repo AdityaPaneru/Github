@@ -226,21 +226,6 @@ Base URL: `http://localhost:3000` (or your `PORT`). Use the routes under `/` as 
 
 ---
 
-## Pushing to GitHub
-
-1. Create a new repository on GitHub (no initial commit is fine).
-2. Add a root `.gitignore` (e.g. `node_modules/`, `dist/`, `.env`, `.repo/`).
-3. From project root:
-
-   ```bash
-   git remote add origin https://github.com/<username>/<repo>.git
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   ```
-
----
-
 ## License
 
 ISC
